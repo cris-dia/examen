@@ -1,7 +1,7 @@
 # examen
 
 migrare cu FK reference: 
-
+/*
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -35,9 +35,9 @@ class CreateEventsTable extends Migration
 }
 
 
-
+*/
 Model Event: 
-
+/*
 <?php
 namespace App\Models;
 
@@ -72,7 +72,8 @@ class Event extends Model
         return $this->belongsToMany(User::class, 'event_registrations', 'event_id', 'user_id');
     }
 }
-
+*/
+/*
 Model Category
 
 <?php
@@ -99,9 +100,9 @@ class Category extends Model
     }
 }
 
-
+*/
 Views:
-
+/*
 @extends('layouts.app')
 
 @section('content')
@@ -151,7 +152,7 @@ Views:
         </form>
     </div>
 @endsection
-
+*/
 
 Routes:
 <?php
