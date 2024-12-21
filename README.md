@@ -34,7 +34,9 @@ class CreateEventsTable extends Migration
 }
 
 
-#Modele: 
+
+#Model Event: 
+
 <?php
 namespace App\Models;
 
@@ -69,6 +71,9 @@ class Event extends Model
         return $this->belongsToMany(User::class, 'event_registrations', 'event_id', 'user_id');
     }
 }
+
+
+#Model Category
 
 <?php
 
