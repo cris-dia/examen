@@ -1,6 +1,7 @@
 # examen
 
-# migrare cu FK reference: 
+migrare cu FK reference: 
+
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -35,7 +36,7 @@ class CreateEventsTable extends Migration
 
 
 
-#Model Event: 
+Model Event: 
 
 <?php
 namespace App\Models;
@@ -72,8 +73,7 @@ class Event extends Model
     }
 }
 
-
-#Model Category
+Model Category
 
 <?php
 
@@ -100,7 +100,7 @@ class Category extends Model
 }
 
 
-#Views:
+Views:
 
 @extends('layouts.app')
 
@@ -153,7 +153,7 @@ class Category extends Model
 @endsection
 
 
-#Routes:
+Routes:
 <?php
 
 use Illuminate\Support\Facades\Route;
